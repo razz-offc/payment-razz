@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pediakuu Payment</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="payment-card">
+      <h2>Halaman Pembayaran</h2>
+      <div class="payment-options">
+        <div class="payment-option" id="qris-payment">
+          <img
+            src="https://files.catbox.moe/3is3vh.jpg"
+            alt="QRIS Logo"
+          />
+          <button onclick="startQRISPayment()">Bayar dengan QRIS</button>
+        </div>
+        <div class="payment-option" id="dana-payment">
+          <img
+            src="https://files.catbox.moe/6jtvll.png"
+            alt="DANA Logo"
+          />
+          <button onclick="startDanaPayment()">Bayar dengan DANA</button>
+        </div>
+        <div class="payment-option" id="gopay-payment">
+          <img
+            src="https://files.catbox.moe/7nz86g.jpg"
+            alt="GOPAY Logo"
+          />
+          <button onclick="startGopayPayment()">Bayar dengan GOPAY</button>
+        </div>
+        <div class="payment-option" id="ovo-payment">
+          <img
+            src="https://files.catbox.moe/9ts849.jpg"
+            alt="OVO Logo"
+          />
+          <button onclick="startOvoPayment()">Bayar dengan OVO</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>&copy; 2025 Pediakuu Payment Gateway</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
